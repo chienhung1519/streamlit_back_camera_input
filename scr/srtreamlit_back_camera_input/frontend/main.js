@@ -48,7 +48,7 @@ function sendValue(value) {
       Streamlit.setFrameHeight(height);
         
       //video.addEventListener('click', takePicture);
-      window.addEventListener('click', takePicture);
+      canvas.addEventListener('touch', takePicture);
       window.rendered = true
     }
   }
